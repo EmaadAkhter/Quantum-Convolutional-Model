@@ -26,6 +26,6 @@ model.fit(qx_train, y_train, validation_data=(qx_test,y_test), batch_size=4, epo
 model.save(os.path.join(SAVE_PATH, "qmodel.keras"))
 
 # Example predictions
-for fname in ['0.jpg','1.jpg','2.jpg','3.jpg']:
+for fname in ['test_picture/0.jpg','test_picture/1.jpg','test_picture/2.jpg','test_picture/3.jpg']:
     res = predict(fname)
     print(f"{fname}: {res}")
