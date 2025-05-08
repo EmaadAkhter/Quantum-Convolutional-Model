@@ -28,7 +28,8 @@ This project integrates quantum computing with classical machine learning to bui
 - Image Processing: PIL, Matplotlib
 
 - Dataset: MNIST
-## Image Preprocessing (Quantum layer)
+
+## Quantum Convolution Output
 
 
 ![Image](https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/test_picture/viz.png)
