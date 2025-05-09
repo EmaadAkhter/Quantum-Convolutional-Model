@@ -8,9 +8,9 @@ This project integrates quantum computing with classical machine learning to bui
 
 ## Features:
 
-- Quantum Feature Extraction: A 2×2 sliding window is used to feed image patches into a 4-qubit quantum circuit, extracting 4 quantum features per patch (i.e., quantum convolution).
+- #####  Quantum Feature Extraction: A 2×2 sliding window is used to feed image patches into a 4-qubit quantum circuit, extracting 4 quantum features per patch (i.e., quantum convolution).
 
-- Preprocessing Option: Quantum-transformed image data is optionally precomputed and stored to reduce training time on subsequent runs.
+- ##### Preprocessing Option: Quantum-transformed image data is optionally precomputed and stored to reduce training time on subsequent runs.
 
 - Model Architecture: A simple feedforward neural network is trained on the 14×14×4 quantum feature maps.
 
