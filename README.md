@@ -41,8 +41,8 @@ This project integrates quantum computing with classical machine learning to bui
 ![Image](https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/training_plot.png)
 
 ### Prediction visualisztion
-<img src="https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/0_pred.png" width="500" /><img src="https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/1_pred.png" width="500" height="427" />
-<img src="https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/2_pred.png" width="500" /><img src="https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/3_pred.png" width="500" />
+<img src="https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/0_pred.png" width="400" /><img src="https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/1_pred.png" width="400" height="341.1" />
+<img src="https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/2_pred.png" width="400" /><img src="https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/3_pred.png" width="400" />
 
 
 
