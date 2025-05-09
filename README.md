@@ -29,10 +29,23 @@ This project integrates quantum computing with classical machine learning to bui
 
 - Dataset: MNIST
 
-## Quantum Convolution Output
+## Graphs
+
+### Quantum-processed output
+
+  
+  ![Image](https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/viz.png)
+
+### Training Performance
+
+![Image](https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/training_plot.png)
+
+### Prediction visualisztion
+
+![Image](https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/assets/00_pred.png)
 
 
-![Image](https://github.com/EmaadAkhter/Quantum-Convolutional-Model/blob/main/Code/test_picture/viz.png)
+
 
 ## Deployment
 
