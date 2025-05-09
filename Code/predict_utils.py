@@ -25,4 +25,8 @@ def predict(path):
     inp = np.expand_dims(qimg, 0)
     probs = model.predict(inp)[0]
     digit = int(np.argmax(probs))
+
+    if float(probs[digit]) < 0.6:
+        return {"digit": "unknown", "confidence": float(probs[digit])}
+    
     return {"digit": digit, "confidence": float(probs[digit])}
