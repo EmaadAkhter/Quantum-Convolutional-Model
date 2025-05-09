@@ -3,6 +3,7 @@ from data_utils import load_mnist
 from quantum_layers import qconv
 from model import build_model
 from predict_utils import predict
+from plot_utils import visualize_prediction
 import numpy as np
 import matplotlib.pyplot as plt
 import os
@@ -29,3 +30,4 @@ model.save(os.path.join(SAVE_PATH, "qmodel.keras"))
 for fname in ['test_picture/0.jpg','test_picture/1.jpg','test_picture/2.jpg','test_picture/3.jpg']:
     res = predict(fname)
     print(f"{fname}: {res}")
+    visualize_prediction(fname, res)
