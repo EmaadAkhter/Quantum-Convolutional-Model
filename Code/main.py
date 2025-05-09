@@ -1,7 +1,7 @@
-from config import PREPROCESS, SAVE_PATH, EPOCHS
+from config import PREPROCESS, SAVE_PATH,EPOCHS
 from data_utils import load_mnist
 from quantum_layers import qconv
-from model import build_model
+from model import build_model, load_model
 from predict_utils import predict
 from plot_utils import visualize_prediction
 import numpy as np
@@ -21,10 +21,14 @@ else:
     qx_train = np.load(os.path.join(SAVE_PATH,"q_train.npy"))
     qx_test  = np.load(os.path.join(SAVE_PATH,"q_test.npy"))
 
+Model = input("Train the model? (y/n): ").strip().lower() == 'y'
 # Train classifier
-model = build_model()
-model.fit(qx_train, y_train, validation_data=(qx_test,y_test), batch_size=4, epochs=EPOCHS)
-model.save(os.path.join(SAVE_PATH, "qmodel.keras"))
+if Model:
+   model = build_model()
+   model.fit(qx_train, y_train, validation_data=(qx_test,y_test), batch_size=4, epochs=EPOCHS)
+   model.save(os.path.join(SAVE_PATH, "qmodel.keras"))
+else:
+    model = load_model()
 
 # Example predictions
 for fname in ['test_picture/0.jpg','test_picture/1.jpg','test_picture/2.jpg','test_picture/3.jpg']:
