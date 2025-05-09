@@ -13,3 +13,7 @@ def build_model():
         metrics=['accuracy']
     )
     return model
+def load_model():
+    """Load the model from the specified path."""
+    model = keras.models.load_model("model/qmodel.keras")
+    return model
